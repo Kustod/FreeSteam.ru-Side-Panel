@@ -1,0 +1,19 @@
+{
+    "name": "FreeSteam.ru",
+    "description": "Показывает актаульные раздачи",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "128":"icons/128.png"
+    },
+  "action": {
+    "default_title": "Открыть боковую панель"
+  },
+  "side_panel": {
+    "default_path": "panel.html"
+  },
+  "permissions": ["sidePanel"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
